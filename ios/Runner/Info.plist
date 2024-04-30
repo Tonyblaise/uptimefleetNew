@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -65,7 +67,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MBXAccessToken</key>
-	<string>sk.eyJ1IjoiYnViYnMiLCJhIjoiY2x2anVvcWFyMDhydTJqbXdydGYwZHV4MCJ9.O9IfdNR_vs05faaisFq0Pg</string>
+	<string>pk.eyJ1IjoiYnViYnMiLCJhIjoiY2tuajZnM2RrM3Z5bTJwcDl5dnUyMGIweSJ9.ptrzHux-aOqLLq88xesllg</string>
 	<key>NSCameraUsageDescription</key>
 	<string>In order to take a photo, this app needs access to your camera</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
@@ -78,6 +80,8 @@
 	<string>In order to upload a photo, this app needs permission to access your photo library</string>
 	<key>PermissionGroupNotification</key>
 	<string>Allow application to send you notifications</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
